@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ssh://secu@192.168.56.1:22/usr/bin/python" name="ssh://secu@192.168.56.1:22/usr/bin/python">
+        <fileTransfer host="192.168.2.85" port="9100" rootFolder="/home/seculayer" accessType="SFTP">
+          <option name="port" value="9100" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3fa43576-1792-4c3e-b52a-a965170ada20" name="gpu" url="http://192.168.2.85">
+        <fileTransfer host="192.168.2.85" port="9100" rootFolder="/home/seculayer" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="9100" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
